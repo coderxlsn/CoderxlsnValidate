@@ -1,0 +1,26 @@
+{
+  "name": "coderxlsn/doctrine_validate_frame",
+  "description": "Validate Text",
+  "minimum-stability": "stable",
+  "license": "BSD-3-Clause",
+  "authors": [
+    {
+      "name": "coderxlsn",
+      "email": "coderxlsn@gmail.com"
+    }
+  ],
+  "require":{
+    "php": ">=5.5",
+    "doctrine/common": "~2.4",
+    "doctrine/orm": "~2.4"
+  },
+  "require-dev":{
+    "phpunit/phpunit": "4.1.*"
+  },
+  "autoload": {
+    "psr-0": {
+      "CoderxlsnValidate\\DoctrineValidateBundle\\": ""
+    }
+  },
+  "target-dir" : "CoderxlsnValidate/DoctrineValidateBundle"
+}
