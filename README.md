@@ -1,15 +1,12 @@
 CoderxlsnValidate Check Iframe in HTML
 ============================================
 
-[![Build Status](https://travis-ci.org/coderxlsn/CoderxlsnValidate.git.svg?branch=master)](http://travis-ci.org/coderxlsn/CoderxlsnValidate)
-
-
 Installation
 ------------
 
 Simplest is to add the following to `composer.json`:
 
-```javascript
+```JSON
 {
     "require": {
         "coderxlsn/doctrine_validate_frame": "~1.0"
@@ -39,9 +36,7 @@ Add to validate model
 ```php
 namespace My;
 
-* @ORM\EntityListeners({ "CoderxlsnValidate\Doctrine\Listener\IframeValidate"})
-
-namespace Application\Entity;
+namespace My\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
 
